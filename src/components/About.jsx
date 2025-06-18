@@ -43,9 +43,12 @@ const About = () => {
       </div>
       <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
-          <img
-            src="img/about.webp"
+         <video
+            src="videos\about video.mp4"
             alt="Baground"
+            autoPlay
+            loop
+            muted
             className="absolute left-0 top-0 size-full object-cover"
           />
         </div>
